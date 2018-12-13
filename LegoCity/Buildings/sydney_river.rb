@@ -3,6 +3,7 @@ class SydneyRiver
 
   def initialize
     @pieces = pieces
+    puts "Selected: Sydney River"
   end
 
   def cost

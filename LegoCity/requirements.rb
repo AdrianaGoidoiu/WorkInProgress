@@ -6,7 +6,9 @@ class Requirements
     @adapter = adapter
   end
 
-  def use_requirements
-    @adapter.use_requirements
+  def user_requirements
+    @adapter.user_requirements
   end
+
+
 end

@@ -3,7 +3,9 @@ class ChicagoWillisTower
 
   def initialize
     @pieces = pieces
+    puts "Selected: Chicago Willis Tower"
   end
+
   def cost
     200
   end

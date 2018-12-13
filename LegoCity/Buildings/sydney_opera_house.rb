@@ -3,7 +3,9 @@ class SydneyOperaHouse
 
   def initialize
     @pieces = pieces
+    puts "Selected: Sydney Opera House"
   end
+
   def cost
     200
   end

@@ -3,7 +3,9 @@ class BerlinTVTower
 
   def initialize
     @pieces = pieces
+    puts "Selected: Berlin TV Tower"
   end
+
   def cost
     200
   end

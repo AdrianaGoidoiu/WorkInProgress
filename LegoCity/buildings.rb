@@ -1,13 +1,13 @@
 require_relative 'city_buildings'
 
 class Buildings
-  attr_accessor :city_buildings
+  attr_accessor :buildings
 
-  def initialize(city_buildings)
-    @city_buildings = city_buildings
+  def initialize(buildings)
+    @buildings = buildings
   end
 
   def select_buildings
-    @city_buildings.select_buildings
+    @buildings.select_buildings(self)
   end
 end

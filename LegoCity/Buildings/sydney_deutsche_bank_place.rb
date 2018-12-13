@@ -3,7 +3,9 @@ class SydneyDeutscheBankPlace
 
   def initialize
     @pieces = pieces
+    puts "Selected: Sydney Deutsche Bank Place"
   end
+
   def cost
     200
   end

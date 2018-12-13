@@ -3,7 +3,9 @@ class BerlinVictoryColumn
 
   def initialize
     @pieces = pieces
+    puts "Selected: Berlin Victory Column"
   end
+
   def cost
     200
   end

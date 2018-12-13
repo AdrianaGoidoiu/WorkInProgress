@@ -3,7 +3,9 @@ class ChicagoBigRed
 
   def initialize
     @pieces = pieces
+    puts "Selected: Chicago Big Red"
   end
+
   def cost
     200
   end

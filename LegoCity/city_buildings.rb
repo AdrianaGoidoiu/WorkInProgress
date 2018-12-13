@@ -1,5 +1,5 @@
 class CityBuildings
-  def select_buildings
-    raise "Exception in CityBuildings"
+  def select_buildings(context)
+    raise 'Exception in CityBuildings'
   end
 end

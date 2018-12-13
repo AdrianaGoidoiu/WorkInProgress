@@ -3,7 +3,9 @@ class SydneyHarbourBridge
 
   def initialize
     @pieces = pieces
+    puts "Selected: Sydney Harbour Bridge"
   end
+
   def cost
     200
   end

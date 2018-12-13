@@ -3,7 +3,9 @@ class SydneyTower
 
   def initialize
     @pieces = pieces
+    puts "Selected: SydneyTower"
   end
+
   def cost
     200
   end

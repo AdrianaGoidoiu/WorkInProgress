@@ -1,10 +1,14 @@
 class City
-  attr_accessor :city_name, :buildings, :color_theme, :city_size
+  attr_accessor :name, :buildings, :color_theme, :city_size
 
-  def initialize(city_name, buildings=[], color_theme, city_size)
-    @city_name = city_name
-    @buildings = buildings
+  def initialize
+    @cname = name
+    @buildings = []
     @color_theme = color_theme
     @city_size = city_size
+  end
+
+  def cost
+    0
   end
 end
