@@ -1,12 +1,8 @@
 class ChicagoDuSableBridge
-  attr_reader :pieces
-
-  def initialize
-    @pieces = pieces
+   def initialize
     puts "Selected: Chicago Du Sable Bridge"
   end
-
   def cost
-    200
+    30
   end
 end

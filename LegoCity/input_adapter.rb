@@ -40,10 +40,10 @@ class InputAdapter
     city_buildings = { '1' => 'SydneyTower', '2' => 'SydneyRiver', '3' => 'SydneyOperaHouse', '4' => 'SydneyHarbourBridge', '5' => 'SydneyDeutscheBankPlace'} if @city_number == 1
     city_buildings = { '1' => 'BerlinBrandenburgGate', '2' => 'BerlinDeutscheBahnTower', '3' => 'BerlinReichstag', '4' => 'BerlinTVTower', '5' => 'BerlinVictoryColumn', '6' => 'BerlinWall'} if @city_number == 2
     city_buildings = { '1' => 'ChicagoBigRed', '2' => 'ChicagoCloudGate', '3' => 'ChicagoDuSableBridge', '4' => 'ChicagoJohnHancockCenter', '5' => 'ChicagoWillisTower', '6' => 'ChicagoWrigleyBuilding'} if @city_number == 3
-
     buildings.each do |building|
       @city_buildings << city_buildings[building.to_s]
     end
+
     @city_buildings
   end
 

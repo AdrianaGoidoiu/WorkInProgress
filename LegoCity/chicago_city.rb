@@ -1,8 +1,10 @@
+require_relative 'city'
 class ChicagoCity < City
   def initialize
-    puts 'Selected: Chicago'
+    puts 'Selected city: Chicago'
   end
+  #the cost depends on the size
   def cost
-    100
+    0
   end
 end

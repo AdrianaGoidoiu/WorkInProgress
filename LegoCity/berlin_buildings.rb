@@ -9,7 +9,7 @@ class BerlinBuildings < CityBuildings
     puts '4. Berlin TV Tower'
     puts '5. Berlin Victory Column'
     puts '6. Berlin Wall'
-    context.buildings = [1, 2, 3, 4, 5]
-    #context.buildings = [gets]
+    context.buildings = [1, 2, 3, 4, 5, 6]
+    #context.buildings = gets.chomp.delete("^1-5").split('')
   end
 end

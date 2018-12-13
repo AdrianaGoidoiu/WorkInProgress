@@ -5,26 +5,27 @@
 # The CityBuilder class defines all of the methods which will be
 # used to perform various steps needed to properly build a lego city object.
 require_relative 'city'
+require_relative '../../Lab5/LegoCity/ColorTheme/giant_goldfish'
 
 class CityBuilder
-  attr_reader :city, :name
+  attr_reader :city
 
   def initialize
     @city = City.new
   end
 
   def add_preferred_city(name)
-    @city.name = Object::const_get(name).new
+    @city.city_name = Object::const_get(name).new
   end
 
   def add_preferred_buildings(building)
     building.each do |city_building|
-      @city.buildings << Object::const_get(city_building).new
+      @city.city_buildings << Object::const_get(city_building).new
     end
   end
 
   def add_preferred_color_theme(theme)
-    @city.color_theme = Object::const_get(theme).new
+    @city.city_color_theme = Object::const_get(theme).new
   end
 
   def add_preferred_size(size)

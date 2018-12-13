@@ -14,7 +14,7 @@ class UserInput
     puts '1.Sydney'
     puts '2.Berlin'
     puts '3.Chicago'
-    @city_name = 3
+    @city_name = 1
     #@city_name = gets.chomp.to_i
   end
 
@@ -34,7 +34,7 @@ class UserInput
     puts '4 Summer Daydream'
     puts '5 Thought Provoking'
     @color_theme = 2
-      # @color_theme = gets.chomp
+    #@color_theme = gets.chomp
   end
 
   def select_size

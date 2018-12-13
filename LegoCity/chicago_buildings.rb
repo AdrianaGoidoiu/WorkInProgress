@@ -10,6 +10,6 @@ class ChicagoBuildings < CityBuildings
     puts '5. Chicago John Hancock Center'
     puts '6. Chicago Du Sable Bridge'
     context.buildings = [1, 2, 3, 4, 5, 6]
-    #context.buildings = [gets]
+    #context.buildings = gets.chomp.delete("^1-5").split('')
   end
 end
